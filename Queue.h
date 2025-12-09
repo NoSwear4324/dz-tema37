@@ -47,7 +47,7 @@ public:
         if (isEmpty()) {
             throw std::out_of_range("Очередь пуста. Невозможно удалить элемент.");
         }
-        frontIndex = (frontIndex + 1) % MAX_SIZE; // Сдвигаем начало очереди
+        frontIndex = (frontIndex + 1) % MAX_SIZE;
         count--;
     }
 
